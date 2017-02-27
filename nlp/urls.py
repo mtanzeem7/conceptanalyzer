@@ -5,5 +5,6 @@ from nlp.views import *
 
 urlpatterns = [
     
-    url(r'^', index),
+    url(r'^$', index),
+    url(r'compare', compare),
 ]
